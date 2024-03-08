@@ -1,7 +1,7 @@
-######### anna neustaeter
-######### volcano plot for papers/presentations
-######### feb 24
-
+# anna neustaeter
+## volcano plot for papers/presentations
+### March 24
+```R 
 library(MASS)
 library(epiDisplay)
 library(foreign)
@@ -35,24 +35,19 @@ library(beeswarm)
 library(microbiome)
 library(vegan)
 library(Maaslin2)
-#library(PCAtools)
-#library(airway)
 library(magrittr)
-#library('DESeq2')
-#library(org.Hs.eg.db)
-#library(GEOquery)
 
 #if (!requireNamespace('BiocManager', quietly = TRUE))
 #  install.packages('BiocManager')
-
 #BiocManager::install('EnhancedVolcano')
 
 library(EnhancedVolcano)
+```
 
-
-####directory
+##directory
+```R
 setwd("C:/Users/Anna neustaeter/OneDrive - SickKids/maaslin_output")
-
+```
 ##https://forum.biobakery.org/t/trying-to-understand-coef-column-and-how-to-convert-it-to-fold-change/3136
 #from a biobakery forum, indicate that 
 #'log2foldchange' IS coef from a maaslin output
